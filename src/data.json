@@ -7,133 +7,105 @@
       "senses": {
         "zh": [
           {
-            "id": "S_ZH_TAIYANG",
+            "id": "S_ZH_TY",
             "word": {
-              "id": "W_ZH_TAIYANG",
-              "language": "zh",
-              "text": "太阳",
-              "pronunciation": "tài yáng",
               "difficulty": 1,
-              "root": "Sinitic"
+              "pronunciation": "tài yáng",
+              "root": "Sinitic",
+              "language": "zh",
+              "id": "W_ZH_TY",
+              "text": "太阳"
             },
-            "nuance": "太阳本身。",
-            "isPrimary": true
+            "nuance": "核心天体",
+            "example": "太阳在东方升起。",
+            "example_translation": "The sun rises in the east.",
+            "isPrimary": false
           }
         ],
         "en": [
           {
-            "id": "S_EN_SUN",
+            "id": "S_EN_SU",
             "word": {
-              "id": "W_EN_SUN",
+              "difficulty": 1,
+              "pronunciation": "/sʌn/",
+              "root": "Germanic",
               "language": "en",
               "text": "Sun",
-              "pronunciation": "/sʌn/",
-              "difficulty": 1,
-              "root": "Germanic: sunnǭ"
+              "id": "W_EN_SU"
             },
-            "nuance": "The star around which the earth orbits.",
-            "isPrimary": true
+            "nuance": "The Star",
+            "example": "The sun is scorching today.",
+            "example_translation": "今天太阳很毒。",
+            "isPrimary": false
           }
         ],
         "jp": [
           {
-            "id": "S_JP_HI",
+            "id": "S_JP_TY",
             "word": {
-              "id": "W_JP_HI",
-              "language": "jp",
-              "text": "日",
-              "pronunciation": "hi",
-              "difficulty": 1,
-              "hanja": "日",
-              "root": "Native"
-            },
-            "nuance": "Refers to the sun itself (native Japanese).",
-            "isPrimary": true
-          },
-          {
-            "id": "S_JP_TAIYOU",
-            "word": {
-              "id": "W_JP_TAIYOU",
-              "language": "jp",
-              "text": "太陽",
-              "pronunciation": "taiyō",
               "difficulty": 2,
+              "pronunciation": "たいよう",
+              "root": "Sinitic",
+              "language": "jp",
               "hanja": "太陽",
-              "root": "Sinitic"
+              "id": "W_JP_TY",
+              "text": "太陽"
             },
-            "nuance": "Scientific/Formal term for the Sun.",
+            "nuance": "惑星系の恒星",
+            "example": "太陽系には八つの惑星がある。",
+            "example_translation": "太阳系有八大行星。",
             "isPrimary": false
           }
         ],
         "kr": [
           {
-            "id": "S_KR_HAE",
+            "id": "S_KR_TY",
             "word": {
-              "id": "W_KR_HAE",
-              "language": "kr",
-              "text": "해",
-              "pronunciation": "hae",
-              "difficulty": 1,
-              "root": "Native"
-            },
-            "nuance": "Native Korean word for Sun.",
-            "isPrimary": true
-          },
-          {
-            "id": "S_KR_TAEYANG",
-            "word": {
-              "id": "W_KR_TAEYANG",
-              "language": "kr",
-              "text": "태양",
-              "pronunciation": "taeyang",
               "difficulty": 2,
+              "pronunciation": "taeyang",
+              "root": "Sinitic",
+              "language": "kr",
               "hanja": "太陽",
-              "root": "Sinitic"
+              "id": "W_KR_TY",
+              "text": "태양"
             },
-            "nuance": "Sino-Korean term for Sun.",
+            "nuance": "빛과 열의 근원",
+            "example": "태양은 지구를 비춘다.",
+            "example_translation": "太阳照耀着地球。",
             "isPrimary": false
           }
         ],
         "fr": [
           {
-            "id": "S_FR_SOLEIL",
+            "id": "S_FR_SO",
             "word": {
-              "id": "W_FR_SOLEIL",
-              "language": "fr",
-              "text": "Soleil",
-              "pronunciation": "/sɔ.lɛj/",
               "difficulty": 1,
-              "root": "Latin: sol"
+              "pronunciation": "/sɔ.lɛj/",
+              "root": "Latin",
+              "language": "fr",
+              "id": "W_FR_SO",
+              "text": "Soleil"
             },
-            "nuance": "The star.",
-            "isPrimary": true
+            "nuance": "L'astre solaire",
+            "example": "Le soleil brille très fort.",
+            "example_translation": "太阳照得很灿烂。",
+            "isPrimary": false
           }
         ],
         "th": [
           {
-            "id": "S_TH_TAWAN",
+            "id": "S_TH_AT",
             "word": {
-              "id": "W_TH_TAWAN",
-              "language": "th",
-              "text": "ตะวัน",
-              "pronunciation": "ta-wan",
               "difficulty": 2,
-              "root": "Native"
-            },
-            "nuance": "Common word for Sun.",
-            "isPrimary": true
-          },
-          {
-            "id": "S_TH_ATHIT",
-            "word": {
-              "id": "W_TH_ATHIT",
+              "pronunciation": "aa-thit",
+              "root": "Sanskrit",
               "language": "th",
               "text": "อาทิตย์",
-              "pronunciation": "aa-thit",
-              "difficulty": 3,
-              "root": "Sanskrit: aditya"
+              "id": "W_TH_AT"
             },
-            "nuance": "Formal/Sanskrit origin.",
+            "nuance": "ดวงอาทิตย์",
+            "example": "พระอาทิตย์ขึ้นตอนเช้า",
+            "example_translation": "太阳从清晨升起。",
             "isPrimary": false
           }
         ]
@@ -141,265 +113,846 @@
     },
     {
       "id": "C_SUN_TIME",
-      "gloss": "日子/天 (时间)",
+      "gloss": "日子 (时间)",
       "category": "Time",
       "senses": {
         "zh": [
           {
             "id": "S_ZH_RI",
             "word": {
-              "id": "W_ZH_RI",
+              "difficulty": 2,
+              "pronunciation": "rì",
+              "root": "Sinitic",
               "language": "zh",
               "text": "日",
-              "pronunciation": "rì",
-              "difficulty": 2,
-              "root": "Sinitic"
+              "id": "W_ZH_RI"
             },
-            "nuance": "泛指一天，或在合成词中使用。",
-            "isPrimary": true
+            "nuance": "一日的时间",
+            "example": "往后的日子还长。",
+            "example_translation": "The days ahead are still long.",
+            "isPrimary": false
           }
         ],
         "en": [
           {
-            "id": "S_EN_DAY",
+            "id": "S_EN_DA",
             "word": {
-              "id": "W_EN_DAY",
+              "difficulty": 1,
+              "pronunciation": "/deɪ/",
+              "root": "Germanic",
               "language": "en",
               "text": "Day",
-              "pronunciation": "/deɪ/",
-              "difficulty": 1,
-              "root": "Germanic: dagaz"
+              "id": "W_EN_DA"
             },
-            "nuance": "A period of 24 hours.",
-            "isPrimary": true
+            "nuance": "24-hour period",
+            "example": "Have a nice day!",
+            "example_translation": "过个快活的一天！",
+            "isPrimary": false
           }
         ],
         "jp": [
           {
-            "id": "S_JP_NICHI",
+            "id": "S_JP_NI",
             "word": {
-              "id": "W_JP_NICHI",
-              "language": "jp",
-              "text": "日",
-              "pronunciation": "nichi",
               "difficulty": 3,
-              "hanja": "日",
-              "root": "Sinitic"
+              "pronunciation": "にち",
+              "root": "Sinitic",
+              "language": "jp",
+              "id": "W_JP_NI",
+              "text": "日",
+              "hanja": "日"
             },
-            "nuance": "Counter for days, or \"Sun\" in compounds.",
-            "isPrimary": true
+            "nuance": "日付の単位",
+            "example": "誕生日は三月十日です。",
+            "example_translation": "我的生日是三月十日。",
+            "isPrimary": false
           }
         ],
         "kr": [
           {
             "id": "S_KR_IL",
             "word": {
-              "id": "W_KR_IL",
-              "language": "kr",
-              "text": "일",
-              "pronunciation": "il",
               "difficulty": 2,
-              "hanja": "日",
-              "root": "Sinitic"
+              "pronunciation": "il",
+              "root": "Sinitic",
+              "language": "kr",
+              "id": "W_KR_IL",
+              "text": "일",
+              "hanja": "日"
             },
-            "nuance": "Sino-Korean word for day/date.",
-            "isPrimary": true
+            "nuance": "하루 또는 날짜",
+            "example": "오늘은 무슨 일이에요?",
+            "example_translation": "今天是什么日子？",
+            "isPrimary": false
           }
         ],
         "fr": [
           {
-            "id": "S_FR_JOUR",
+            "id": "S_FR_JO",
             "word": {
-              "id": "W_FR_JOUR",
+              "difficulty": 1,
+              "pronunciation": "/ʒuʁ/",
+              "root": "Latin",
               "language": "fr",
               "text": "Jour",
-              "pronunciation": "/ʒuʁ/",
-              "difficulty": 1,
-              "root": "Latin: diurnum"
+              "id": "W_FR_JO"
             },
-            "nuance": "Daytime or 24h period.",
-            "isPrimary": true
+            "nuance": "Durée de 24h",
+            "example": "Quel jour sommes-nous ?",
+            "example_translation": "今天是星期几/什么时候？",
+            "isPrimary": false
           }
         ],
         "th": [
           {
-            "id": "S_TH_WAN",
+            "id": "S_TH_WA",
             "word": {
-              "id": "W_TH_WAN",
-              "language": "th",
-              "text": "วัน",
-              "pronunciation": "wan",
               "difficulty": 1,
-              "root": "Unknown"
+              "pronunciation": "wan",
+              "root": "Unknown",
+              "language": "th",
+              "id": "W_TH_WA",
+              "text": "วัน"
             },
-            "nuance": "Day.",
-            "isPrimary": true
+            "nuance": "เวลาหนื่งว้น",
+            "example": "วันนี้เป็นวันเกิดของฉัน",
+            "example_translation": "今天是我的生日。",
+            "isPrimary": false
           }
         ]
       }
     },
     {
       "id": "C_HAPPY",
-      "gloss": "快乐/高兴 (情绪)",
+      "gloss": "快乐 (情绪)",
       "category": "Emotion",
       "senses": {
         "zh": [
           {
-            "id": "S_ZH_KAIXIN",
+            "id": "S_ZH_LE",
             "word": {
-              "id": "W_ZH_KAIXIN",
+              "difficulty": 2,
+              "pronunciation": "lè",
+              "root": "Sinitic",
               "language": "zh",
-              "text": "开心",
-              "pronunciation": "kāi xīn",
-              "difficulty": 1,
-              "root": "Sinitic"
+              "text": "乐",
+              "id": "W_ZH_LE"
             },
-            "nuance": "内心感到愉悦。",
-            "isPrimary": true
+            "nuance": "情感愉悦",
+            "example": "助人为乐。",
+            "example_translation": "Joy in helping others.",
+            "isPrimary": false
+          },
+          {
+            "id": "S_ZH_KX",
+            "word": {
+              "difficulty": 1,
+              "pronunciation": "kāi xīn",
+              "root": "Sinitic",
+              "language": "zh",
+              "id": "W_ZH_KX",
+              "text": "开心"
+            },
+            "nuance": "直观的喜悦",
+            "example": "见到你我真开心。",
+            "example_translation": "I am so happy to see you.",
+            "isPrimary": false
           }
         ],
         "en": [
           {
-            "id": "S_EN_HAPPY",
+            "id": "S_EN_HA",
             "word": {
-              "id": "W_EN_HAPPY",
-              "language": "en",
-              "text": "Happy",
-              "pronunciation": "/ˈhæpi/",
               "difficulty": 1,
-              "root": "Norse: happ"
-            },
-            "nuance": "General feeling of pleasure.",
-            "isPrimary": true
-          },
-          {
-            "id": "S_EN_DELIGHTED",
-            "word": {
-              "id": "W_EN_DELIGHTED",
+              "pronunciation": "/ˈhæpi/",
+              "root": "Norse",
               "language": "en",
-              "text": "Delighted",
-              "pronunciation": "/dɪˈlaɪtɪd/",
-              "difficulty": 2,
-              "root": "Latin: delectare"
+              "id": "W_EN_HA",
+              "text": "Happy"
             },
-            "nuance": "Higher intensity, typically about a specific event.",
-            "isPrimary": false
-          },
-          {
-            "id": "S_EN_ECSTATIC",
-            "word": {
-              "id": "W_EN_ECSTATIC",
-              "language": "en",
-              "text": "Ecstatic",
-              "pronunciation": "/ekˈstætɪk/",
-              "difficulty": 4,
-              "root": "Greek: ekstasis"
-            },
-            "nuance": "Overwhelming happiness.",
+            "nuance": "General joy",
+            "example": "Happy people live longer.",
+            "example_translation": "快乐的人长寿。",
             "isPrimary": false
           }
         ],
         "jp": [
           {
-            "id": "S_JP_URESHII",
+            "id": "S_JP_RK",
             "word": {
-              "id": "W_JP_URESHII",
+              "difficulty": 2,
+              "pronunciation": "らく",
+              "root": "Sinitic",
               "language": "jp",
-              "text": "嬉しい",
-              "pronunciation": "ureshii",
-              "difficulty": 1,
-              "root": "Native"
+              "id": "W_JP_RK",
+              "text": "楽",
+              "hanja": "楽"
             },
-            "nuance": "Subjective feeling of happiness.",
-            "isPrimary": true
+            "nuance": "乐 (Sinitic)",
+            "example": "音乐を楽しむ。",
+            "example_translation": "Enjoy music.",
+            "isPrimary": false
           },
           {
-            "id": "S_JP_KANGI",
+            "id": "S_JP_UR",
             "word": {
-              "id": "W_JP_KANGI",
+              "difficulty": 1,
+              "pronunciation": "うれしい",
+              "root": "Native",
               "language": "jp",
-              "text": "歓喜",
-              "pronunciation": "kanki",
-              "difficulty": 4,
-              "hanja": "歓喜",
-              "root": "Sinitic"
+              "id": "W_JP_UR",
+              "text": "嬉しい"
             },
-            "nuance": "Deep joy/Delight (Formal).",
+            "nuance": "主観的な喜び",
+            "example": "プレゼントをもらって嬉しい。",
+            "example_translation": "收到礼物我很开心。",
             "isPrimary": false
           }
         ],
         "kr": [
           {
-            "id": "S_KR_GIPPEUDA",
+            "id": "S_KR_RK",
             "word": {
-              "id": "W_KR_GIPPEUDA",
+              "difficulty": 3,
+              "pronunciation": "rak",
+              "root": "Sinitic",
               "language": "kr",
-              "text": "기쁘다",
-              "pronunciation": "gippeuda",
-              "difficulty": 1,
-              "root": "Native"
+              "id": "W_KR_RK",
+              "text": "락",
+              "hanja": "樂"
             },
-            "nuance": "To be glad/happy.",
-            "isPrimary": true
+            "nuance": "락 (Sinitic)",
+            "example": "희로애락.",
+            "example_translation": "Joy, anger, sorrow, pleasure.",
+            "isPrimary": false
+          },
+          {
+            "id": "S_KR_GP",
+            "word": {
+              "difficulty": 1,
+              "pronunciation": "gippeuda",
+              "root": "Native",
+              "language": "kr",
+              "id": "W_KR_GP",
+              "text": "기쁘다"
+            },
+            "nuance": "벅찬 즐거움",
+            "example": "합격 소식에 정말 기쁘다.",
+            "example_translation": "听到合格的消息真开心。",
+            "isPrimary": false
           }
         ],
         "fr": [
           {
-            "id": "S_FR_HEUREUX",
+            "id": "S_FR_HE",
             "word": {
-              "id": "W_FR_HEUREUX",
-              "language": "fr",
-              "text": "Heureux",
-              "pronunciation": "/œ.ʁø/",
               "difficulty": 1,
-              "root": "Latin: augurium"
-            },
-            "nuance": "State of well-being.",
-            "isPrimary": true
-          },
-          {
-            "id": "S_FR_RAVI",
-            "word": {
-              "id": "W_FR_RAVI",
+              "pronunciation": "/œ.ʁø/",
+              "root": "Latin",
               "language": "fr",
-              "text": "Ravi",
-              "pronunciation": "/ʁa.vi/",
-              "difficulty": 2,
-              "root": "Latin: rapere"
+              "id": "W_FR_HE",
+              "text": "Heureux"
             },
-            "nuance": "Delighted/Enchanted.",
+            "nuance": "État de bonheur",
+            "example": "Je suis heureux de te voir.",
+            "example_translation": "看到你我很幸福。",
             "isPrimary": false
           }
         ],
-        "th": []
+        "th": [
+          {
+            "id": "S_TH_DJ",
+            "word": {
+              "difficulty": 1,
+              "pronunciation": "dee-jai",
+              "root": "Native",
+              "language": "th",
+              "id": "W_TH_DJ",
+              "text": "ดีใจ"
+            },
+            "nuance": "ความรู้สึกยินดี",
+            "example": "ฉันดีใจที่ได้พบคุณ",
+            "example_translation": "见到你我很开心。",
+            "isPrimary": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "C_WATER_H2O",
+      "gloss": "水 (物质)",
+      "category": "Nature",
+      "senses": {
+        "zh": [
+          {
+            "id": "S_ZH_SH",
+            "word": {
+              "difficulty": 1,
+              "pronunciation": "shuǐ",
+              "root": "Sinitic",
+              "language": "zh",
+              "text": "水",
+              "id": "W_ZH_SH"
+            },
+            "nuance": "基本液体",
+            "example": "人离不开水。",
+            "example_translation": "Humans cannot live without water.",
+            "isPrimary": false
+          }
+        ],
+        "en": [
+          {
+            "id": "S_EN_WA",
+            "word": {
+              "difficulty": 1,
+              "pronunciation": "ˈwɔːtər",
+              "root": "Germanic",
+              "language": "en",
+              "id": "W_EN_WA",
+              "text": "Water"
+            },
+            "nuance": "H2O liquid",
+            "example": "Please give me a glass of water.",
+            "example_translation": "请给我杯水。",
+            "isPrimary": false
+          }
+        ],
+        "jp": [
+          {
+            "id": "S_JP_MZ",
+            "word": {
+              "difficulty": 1,
+              "pronunciation": "みず",
+              "root": "Native",
+              "language": "jp",
+              "id": "W_JP_MZ",
+              "text": "水",
+              "hanja": "水"
+            },
+            "nuance": "冷たい水",
+            "example": "水を一杯ください。",
+            "example_translation": "请给我一杯水。",
+            "isPrimary": false
+          }
+        ],
+        "kr": [
+          {
+            "id": "S_KR_MU",
+            "word": {
+              "difficulty": 1,
+              "pronunciation": "mul",
+              "root": "Native",
+              "language": "kr",
+              "text": "물",
+              "id": "W_KR_MU"
+            },
+            "nuance": "마시는 물",
+            "example": "물이 맑고 깨끗하다.",
+            "example_translation": "水很清澈干净。",
+            "isPrimary": false
+          }
+        ],
+        "fr": [
+          {
+            "id": "S_FR_EA",
+            "word": {
+              "difficulty": 1,
+              "pronunciation": "o",
+              "root": "Latin",
+              "language": "fr",
+              "text": "Eau",
+              "id": "W_FR_EA"
+            },
+            "nuance": "Liquide vital",
+            "example": "L'eau est incolore.",
+            "example_translation": "水是无色的。",
+            "isPrimary": false
+          }
+        ],
+        "th": [
+          {
+            "id": "S_TH_NA",
+            "word": {
+              "difficulty": 1,
+              "pronunciation": "nám",
+              "root": "Native",
+              "language": "th",
+              "id": "W_TH_NA",
+              "text": "น้ำ"
+            },
+            "nuance": "ของเหลวที่ใช้ดื่ม",
+            "example": "ฉันขอน้ำหน่อยเถอะ",
+            "example_translation": "给我点水吧。",
+            "isPrimary": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "C_HEART",
+      "gloss": "心 (核心/情感)",
+      "category": "Abstract",
+      "senses": {
+        "zh": [
+          {
+            "id": "S_ZH_XI",
+            "word": {
+              "difficulty": 1,
+              "pronunciation": "xīn",
+              "root": "Sinitic",
+              "language": "zh",
+              "text": "心",
+              "id": "W_ZH_XI"
+            },
+            "nuance": "情感与思维的中心",
+            "example": "这首歌深深地触动了我的心。",
+            "example_translation": "This song deeply touched my heart.",
+            "isPrimary": false
+          }
+        ],
+        "en": [
+          {
+            "id": "S_EN_HE",
+            "word": {
+              "difficulty": 1,
+              "pronunciation": "/hɑːrt/",
+              "root": "Germanic",
+              "language": "en",
+              "id": "W_EN_HE",
+              "text": "Heart"
+            },
+            "nuance": "The emotional center",
+            "example": "Follow your heart when making decisions.",
+            "example_translation": "做决定时请追随你的内心。",
+            "isPrimary": false
+          }
+        ],
+        "jp": [
+          {
+            "id": "S_JP_SZ",
+            "word": {
+              "difficulty": 2,
+              "pronunciation": "しんぞう",
+              "root": "Sinitic",
+              "language": "jp",
+              "hanja": "心臓",
+              "id": "W_JP_SZ",
+              "text": "心臓"
+            },
+            "nuance": "解剖学的な臓器",
+            "example": "心臓がドキドキしている。",
+            "example_translation": "心脏正在扑通扑通地跳。",
+            "isPrimary": false
+          },
+          {
+            "id": "S_JP_KO",
+            "word": {
+              "difficulty": 1,
+              "pronunciation": "こころ",
+              "root": "Native",
+              "language": "jp",
+              "id": "W_JP_KO",
+              "text": "心",
+              "hanja": "心"
+            },
+            "nuance": "精神的、抽象的な心",
+            "example": "彼はとても心が温かい人です。",
+            "example_translation": "他是一个心肠非常温暖的人。",
+            "isPrimary": false
+          }
+        ],
+        "kr": [
+          {
+            "id": "S_KR_SJ",
+            "word": {
+              "difficulty": 2,
+              "pronunciation": "sim-jang",
+              "root": "Sinitic",
+              "language": "kr",
+              "hanja": "心臓",
+              "id": "W_KR_SJ",
+              "text": "심장"
+            },
+            "nuance": "해부학적 장기",
+            "example": "규칙적인 운동은 심장 건강에 좋다.",
+            "example_translation": "规律运动对心脏心脏健康有好处。",
+            "isPrimary": false
+          },
+          {
+            "id": "S_KR_MA",
+            "word": {
+              "difficulty": 1,
+              "pronunciation": "ma-eum",
+              "root": "Native",
+              "language": "kr",
+              "id": "W_KR_MA",
+              "text": "마음"
+            },
+            "nuance": "추상적인 정신적 중심",
+            "example": "그녀의 마음이 정말 예뻐요.",
+            "example_translation": "她的心肠真的很美。",
+            "isPrimary": false
+          }
+        ],
+        "fr": [
+          {
+            "id": "S_FR_CO",
+            "word": {
+              "difficulty": 1,
+              "pronunciation": "/kœʁ/",
+              "root": "Latin",
+              "language": "fr",
+              "id": "W_FR_CO",
+              "text": "Cœur"
+            },
+            "nuance": "Le centre des émotions",
+            "example": "Elle a un cœur d'or.",
+            "example_translation": "她有一颗金子般的心。",
+            "isPrimary": false
+          }
+        ],
+        "th": [
+          {
+            "id": "S_TH_HJ",
+            "word": {
+              "difficulty": 1,
+              "pronunciation": "hua-jai",
+              "root": "Native",
+              "language": "th",
+              "id": "W_TH_HJ",
+              "text": "หัวใจ"
+            },
+            "nuance": "ศูนย์กลางของความรู้สึก",
+            "example": "เขาเป็นคนที่มีหัวใจดีมาก",
+            "example_translation": "他是一个心肠非常好的人。",
+            "isPrimary": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "C_WAY_PATH",
+      "gloss": "道/路 (路径/法则)",
+      "category": "Abstract",
+      "senses": {
+        "zh": [
+          {
+            "id": "S_ZH_LU",
+            "word": {
+              "difficulty": 1,
+              "pronunciation": "lù",
+              "root": "Sinitic",
+              "language": "zh",
+              "text": "路",
+              "id": "W_ZH_LU"
+            },
+            "nuance": "具体的通行路径",
+            "example": "这条路直通火车站。",
+            "example_translation": "This road leads directly to the station.",
+            "isPrimary": false
+          },
+          {
+            "id": "S_ZH_DA",
+            "word": {
+              "difficulty": 2,
+              "pronunciation": "dào",
+              "root": "Sinitic",
+              "language": "zh",
+              "text": "道",
+              "id": "W_ZH_DA"
+            },
+            "nuance": "抽象的法则与道路",
+            "example": "他找到了自己的人生长道。",
+            "example_translation": "He found his life's great path.",
+            "isPrimary": false
+          }
+        ],
+        "en": [
+          {
+            "id": "S_EN_RO",
+            "word": {
+              "difficulty": 1,
+              "pronunciation": "/roʊd/",
+              "root": "Germanic",
+              "language": "en",
+              "text": "Road",
+              "id": "W_EN_RO"
+            },
+            "nuance": "A paved path for travel",
+            "example": "The road is under construction.",
+            "example_translation": "路面正在施工。",
+            "isPrimary": false
+          },
+          {
+            "id": "S_EN_WAY",
+            "word": {
+              "difficulty": 1,
+              "pronunciation": "/weɪ/",
+              "root": "Germanic",
+              "language": "en",
+              "text": "Way",
+              "id": "W_EN_WAY"
+            },
+            "nuance": "Method or route",
+            "example": "Is this the right way to the beach?",
+            "example_translation": "这是去海滩的路吗？",
+            "isPrimary": false
+          }
+        ],
+        "jp": [
+          {
+            "id": "S_JP_DO",
+            "word": {
+              "difficulty": 3,
+              "pronunciation": "どう",
+              "root": "Sinitic",
+              "language": "jp",
+              "id": "W_JP_DO",
+              "text": "道",
+              "hanja": "道"
+            },
+            "nuance": "道の概念、術",
+            "example": "茶の道（茶道）。",
+            "example_translation": "The way of tea (Tea Ceremony).",
+            "isPrimary": false
+          },
+          {
+            "id": "S_JP_MI",
+            "word": {
+              "difficulty": 1,
+              "pronunciation": "みち",
+              "root": "Native",
+              "language": "jp",
+              "id": "W_JP_MI",
+              "text": "道",
+              "hanja": "道"
+            },
+            "nuance": "物理的な通り路",
+            "example": "通りをまっすぐ歩く。",
+            "example_translation": "径直走在街上。",
+            "isPrimary": false
+          }
+        ],
+        "kr": [
+          {
+            "id": "S_KR_DO",
+            "word": {
+              "difficulty": 3,
+              "pronunciation": "do",
+              "root": "Sinitic",
+              "language": "kr",
+              "id": "W_KR_DO",
+              "text": "도",
+              "hanja": "道"
+            },
+            "nuance": "정신적 가치나 가르침",
+            "example": "정의로운 길을 가다.",
+            "example_translation": "走正义之路 (道)。",
+            "isPrimary": false
+          },
+          {
+            "id": "S_KR_GI",
+            "word": {
+              "difficulty": 1,
+              "pronunciation": "gil",
+              "root": "Native",
+              "language": "kr",
+              "text": "길",
+              "id": "W_KR_GI"
+            },
+            "nuance": "사람이나 차가 다니는 길",
+            "example": "길이 너무 막힌다.",
+            "example_translation": "路太堵了。",
+            "isPrimary": false
+          }
+        ],
+        "fr": [
+          {
+            "id": "S_FR_RO",
+            "word": {
+              "difficulty": 1,
+              "pronunciation": "/ʁut/",
+              "root": "Latin",
+              "language": "fr",
+              "id": "W_FR_RO",
+              "text": "Route"
+            },
+            "nuance": "Grande voie asphaltée",
+            "example": "La route est longue.",
+            "example_translation": "路途遥远。",
+            "isPrimary": false
+          },
+          {
+            "id": "S_FR_VO",
+            "word": {
+              "difficulty": 1,
+              "pronunciation": "/vwa/",
+              "root": "Latin",
+              "language": "fr",
+              "text": "Voie",
+              "id": "W_FR_VO"
+            },
+            "nuance": "Moyen ou passsage",
+            "example": "Prendre la voie lactée.",
+            "example_translation": "踏入银河 (道)。",
+            "isPrimary": false
+          }
+        ],
+        "th": [
+          {
+            "id": "S_TH_TA",
+            "word": {
+              "difficulty": 1,
+              "pronunciation": "thaang",
+              "root": "Native",
+              "language": "th",
+              "id": "W_TH_TA",
+              "text": "ทาง"
+            },
+            "nuance": "เส้นทางที่เดินไปได้",
+            "example": "ทางข้างล่างเป็นทางเปลี่ยว",
+            "example_translation": "下面的路是一条偏僻的路。",
+            "isPrimary": false
+          }
+        ]
       }
     }
   ],
   "alignments": [
     {
-      "sourceId": "W_JP_NICHI",
+      "sourceId": "W_ZH_SH",
+      "targetId": "W_KR_MU",
+      "type": "EXACT"
+    },
+    {
+      "sourceId": "W_ZH_SH",
+      "targetId": "W_JP_MZ",
+      "type": "EXACT"
+    },
+    {
+      "sourceId": "W_ZH_XI",
+      "targetId": "W_KR_SJ",
+      "type": "EXACT"
+    },
+    {
+      "sourceId": "W_ZH_XI",
+      "targetId": "W_JP_SZ",
+      "type": "EXACT"
+    },
+    {
+      "sourceId": "W_ZH_XI",
+      "targetId": "W_JP_KO",
+      "type": "EXACT"
+    },
+    {
+      "sourceId": "W_ZH_DA",
+      "targetId": "W_KR_DO",
+      "type": "EXACT"
+    },
+    {
+      "sourceId": "W_ZH_DA",
+      "targetId": "W_JP_DO",
+      "type": "EXACT"
+    },
+    {
+      "sourceId": "W_EN_SU",
+      "targetId": "W_FR_SO",
+      "type": "COGNATE"
+    },
+    {
+      "sourceId": "W_EN_HA",
+      "targetId": "W_FR_HE",
+      "type": "COGNATE"
+    },
+    {
+      "sourceId": "W_EN_WA",
+      "targetId": "W_FR_EA",
+      "type": "COGNATE"
+    },
+    {
+      "sourceId": "W_EN_HE",
+      "targetId": "W_ZH_XI",
+      "type": "COGNATE"
+    },
+    {
+      "sourceId": "W_EN_HE",
+      "targetId": "W_FR_CO",
+      "type": "COGNATE"
+    },
+    {
+      "sourceId": "W_EN_WAY",
+      "targetId": "W_ZH_DA",
+      "type": "COGNATE"
+    },
+    {
+      "sourceId": "W_EN_WAY",
+      "targetId": "W_FR_VO",
+      "type": "COGNATE"
+    },
+    {
+      "sourceId": "W_EN_RO",
+      "targetId": "W_FR_RO",
+      "type": "COGNATE"
+    },
+    {
+      "sourceId": "W_JP_NI",
       "targetId": "W_KR_IL",
       "type": "EXACT"
     },
     {
-      "sourceId": "W_JP_TAIYOU",
-      "targetId": "W_KR_TAEYANG",
+      "sourceId": "W_JP_RK",
+      "targetId": "W_KR_RK",
       "type": "EXACT"
     },
     {
-      "sourceId": "W_EN_SUN",
-      "targetId": "W_FR_SOLEIL",
-      "type": "COGNATE"
+      "sourceId": "W_JP_MZ",
+      "targetId": "W_KR_MU",
+      "type": "EXACT"
     },
     {
-      "sourceId": "W_EN_HAPPY",
-      "targetId": "W_FR_HEUREUX",
-      "type": "APPROXIMATE"
+      "sourceId": "W_JP_SZ",
+      "targetId": "W_KR_SJ",
+      "type": "EXACT"
     },
     {
-      "sourceId": "W_EN_HAPPY",
-      "targetId": "W_JP_URESHII",
-      "type": "APPROXIMATE"
+      "sourceId": "W_JP_DO",
+      "targetId": "W_KR_DO",
+      "type": "EXACT"
+    },
+    {
+      "sourceId": "W_KR_TY",
+      "targetId": "W_JP_TY",
+      "type": "EXACT"
+    },
+    {
+      "sourceId": "W_ZH_TY",
+      "targetId": "W_KR_TY",
+      "type": "EXACT"
+    },
+    {
+      "sourceId": "W_ZH_TY",
+      "targetId": "W_JP_TY",
+      "type": "EXACT"
+    },
+    {
+      "sourceId": "W_ZH_RI",
+      "targetId": "W_KR_IL",
+      "type": "EXACT"
+    },
+    {
+      "sourceId": "W_ZH_RI",
+      "targetId": "W_JP_NI",
+      "type": "EXACT"
+    },
+    {
+      "sourceId": "W_ZH_LE",
+      "targetId": "W_JP_RK",
+      "type": "EXACT"
+    },
+    {
+      "sourceId": "W_ZH_LE",
+      "targetId": "W_KR_RK",
+      "type": "EXACT"
     }
   ]
 }
