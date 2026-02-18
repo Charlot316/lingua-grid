@@ -1,0 +1,405 @@
+{
+  "concepts": [
+    {
+      "id": "C_SUN_BODY",
+      "gloss": "太阳 (天体)",
+      "category": "Nature",
+      "senses": {
+        "zh": [
+          {
+            "id": "S_ZH_TAIYANG",
+            "word": {
+              "id": "W_ZH_TAIYANG",
+              "language": "zh",
+              "text": "太阳",
+              "pronunciation": "tài yáng",
+              "difficulty": 1,
+              "root": "Sinitic"
+            },
+            "nuance": "太阳本身。",
+            "isPrimary": true
+          }
+        ],
+        "en": [
+          {
+            "id": "S_EN_SUN",
+            "word": {
+              "id": "W_EN_SUN",
+              "language": "en",
+              "text": "Sun",
+              "pronunciation": "/sʌn/",
+              "difficulty": 1,
+              "root": "Germanic: sunnǭ"
+            },
+            "nuance": "The star around which the earth orbits.",
+            "isPrimary": true
+          }
+        ],
+        "jp": [
+          {
+            "id": "S_JP_HI",
+            "word": {
+              "id": "W_JP_HI",
+              "language": "jp",
+              "text": "日",
+              "pronunciation": "hi",
+              "difficulty": 1,
+              "hanja": "日",
+              "root": "Native"
+            },
+            "nuance": "Refers to the sun itself (native Japanese).",
+            "isPrimary": true
+          },
+          {
+            "id": "S_JP_TAIYOU",
+            "word": {
+              "id": "W_JP_TAIYOU",
+              "language": "jp",
+              "text": "太陽",
+              "pronunciation": "taiyō",
+              "difficulty": 2,
+              "hanja": "太陽",
+              "root": "Sinitic"
+            },
+            "nuance": "Scientific/Formal term for the Sun.",
+            "isPrimary": false
+          }
+        ],
+        "kr": [
+          {
+            "id": "S_KR_HAE",
+            "word": {
+              "id": "W_KR_HAE",
+              "language": "kr",
+              "text": "해",
+              "pronunciation": "hae",
+              "difficulty": 1,
+              "root": "Native"
+            },
+            "nuance": "Native Korean word for Sun.",
+            "isPrimary": true
+          },
+          {
+            "id": "S_KR_TAEYANG",
+            "word": {
+              "id": "W_KR_TAEYANG",
+              "language": "kr",
+              "text": "태양",
+              "pronunciation": "taeyang",
+              "difficulty": 2,
+              "hanja": "太陽",
+              "root": "Sinitic"
+            },
+            "nuance": "Sino-Korean term for Sun.",
+            "isPrimary": false
+          }
+        ],
+        "fr": [
+          {
+            "id": "S_FR_SOLEIL",
+            "word": {
+              "id": "W_FR_SOLEIL",
+              "language": "fr",
+              "text": "Soleil",
+              "pronunciation": "/sɔ.lɛj/",
+              "difficulty": 1,
+              "root": "Latin: sol"
+            },
+            "nuance": "The star.",
+            "isPrimary": true
+          }
+        ],
+        "th": [
+          {
+            "id": "S_TH_TAWAN",
+            "word": {
+              "id": "W_TH_TAWAN",
+              "language": "th",
+              "text": "ตะวัน",
+              "pronunciation": "ta-wan",
+              "difficulty": 2,
+              "root": "Native"
+            },
+            "nuance": "Common word for Sun.",
+            "isPrimary": true
+          },
+          {
+            "id": "S_TH_ATHIT",
+            "word": {
+              "id": "W_TH_ATHIT",
+              "language": "th",
+              "text": "อาทิตย์",
+              "pronunciation": "aa-thit",
+              "difficulty": 3,
+              "root": "Sanskrit: aditya"
+            },
+            "nuance": "Formal/Sanskrit origin.",
+            "isPrimary": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "C_SUN_TIME",
+      "gloss": "日子/天 (时间)",
+      "category": "Time",
+      "senses": {
+        "zh": [
+          {
+            "id": "S_ZH_RI",
+            "word": {
+              "id": "W_ZH_RI",
+              "language": "zh",
+              "text": "日",
+              "pronunciation": "rì",
+              "difficulty": 2,
+              "root": "Sinitic"
+            },
+            "nuance": "泛指一天，或在合成词中使用。",
+            "isPrimary": true
+          }
+        ],
+        "en": [
+          {
+            "id": "S_EN_DAY",
+            "word": {
+              "id": "W_EN_DAY",
+              "language": "en",
+              "text": "Day",
+              "pronunciation": "/deɪ/",
+              "difficulty": 1,
+              "root": "Germanic: dagaz"
+            },
+            "nuance": "A period of 24 hours.",
+            "isPrimary": true
+          }
+        ],
+        "jp": [
+          {
+            "id": "S_JP_NICHI",
+            "word": {
+              "id": "W_JP_NICHI",
+              "language": "jp",
+              "text": "日",
+              "pronunciation": "nichi",
+              "difficulty": 3,
+              "hanja": "日",
+              "root": "Sinitic"
+            },
+            "nuance": "Counter for days, or \"Sun\" in compounds.",
+            "isPrimary": true
+          }
+        ],
+        "kr": [
+          {
+            "id": "S_KR_IL",
+            "word": {
+              "id": "W_KR_IL",
+              "language": "kr",
+              "text": "일",
+              "pronunciation": "il",
+              "difficulty": 2,
+              "hanja": "日",
+              "root": "Sinitic"
+            },
+            "nuance": "Sino-Korean word for day/date.",
+            "isPrimary": true
+          }
+        ],
+        "fr": [
+          {
+            "id": "S_FR_JOUR",
+            "word": {
+              "id": "W_FR_JOUR",
+              "language": "fr",
+              "text": "Jour",
+              "pronunciation": "/ʒuʁ/",
+              "difficulty": 1,
+              "root": "Latin: diurnum"
+            },
+            "nuance": "Daytime or 24h period.",
+            "isPrimary": true
+          }
+        ],
+        "th": [
+          {
+            "id": "S_TH_WAN",
+            "word": {
+              "id": "W_TH_WAN",
+              "language": "th",
+              "text": "วัน",
+              "pronunciation": "wan",
+              "difficulty": 1,
+              "root": "Unknown"
+            },
+            "nuance": "Day.",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "C_HAPPY",
+      "gloss": "快乐/高兴 (情绪)",
+      "category": "Emotion",
+      "senses": {
+        "zh": [
+          {
+            "id": "S_ZH_KAIXIN",
+            "word": {
+              "id": "W_ZH_KAIXIN",
+              "language": "zh",
+              "text": "开心",
+              "pronunciation": "kāi xīn",
+              "difficulty": 1,
+              "root": "Sinitic"
+            },
+            "nuance": "内心感到愉悦。",
+            "isPrimary": true
+          }
+        ],
+        "en": [
+          {
+            "id": "S_EN_HAPPY",
+            "word": {
+              "id": "W_EN_HAPPY",
+              "language": "en",
+              "text": "Happy",
+              "pronunciation": "/ˈhæpi/",
+              "difficulty": 1,
+              "root": "Norse: happ"
+            },
+            "nuance": "General feeling of pleasure.",
+            "isPrimary": true
+          },
+          {
+            "id": "S_EN_DELIGHTED",
+            "word": {
+              "id": "W_EN_DELIGHTED",
+              "language": "en",
+              "text": "Delighted",
+              "pronunciation": "/dɪˈlaɪtɪd/",
+              "difficulty": 2,
+              "root": "Latin: delectare"
+            },
+            "nuance": "Higher intensity, typically about a specific event.",
+            "isPrimary": false
+          },
+          {
+            "id": "S_EN_ECSTATIC",
+            "word": {
+              "id": "W_EN_ECSTATIC",
+              "language": "en",
+              "text": "Ecstatic",
+              "pronunciation": "/ekˈstætɪk/",
+              "difficulty": 4,
+              "root": "Greek: ekstasis"
+            },
+            "nuance": "Overwhelming happiness.",
+            "isPrimary": false
+          }
+        ],
+        "jp": [
+          {
+            "id": "S_JP_URESHII",
+            "word": {
+              "id": "W_JP_URESHII",
+              "language": "jp",
+              "text": "嬉しい",
+              "pronunciation": "ureshii",
+              "difficulty": 1,
+              "root": "Native"
+            },
+            "nuance": "Subjective feeling of happiness.",
+            "isPrimary": true
+          },
+          {
+            "id": "S_JP_KANGI",
+            "word": {
+              "id": "W_JP_KANGI",
+              "language": "jp",
+              "text": "歓喜",
+              "pronunciation": "kanki",
+              "difficulty": 4,
+              "hanja": "歓喜",
+              "root": "Sinitic"
+            },
+            "nuance": "Deep joy/Delight (Formal).",
+            "isPrimary": false
+          }
+        ],
+        "kr": [
+          {
+            "id": "S_KR_GIPPEUDA",
+            "word": {
+              "id": "W_KR_GIPPEUDA",
+              "language": "kr",
+              "text": "기쁘다",
+              "pronunciation": "gippeuda",
+              "difficulty": 1,
+              "root": "Native"
+            },
+            "nuance": "To be glad/happy.",
+            "isPrimary": true
+          }
+        ],
+        "fr": [
+          {
+            "id": "S_FR_HEUREUX",
+            "word": {
+              "id": "W_FR_HEUREUX",
+              "language": "fr",
+              "text": "Heureux",
+              "pronunciation": "/œ.ʁø/",
+              "difficulty": 1,
+              "root": "Latin: augurium"
+            },
+            "nuance": "State of well-being.",
+            "isPrimary": true
+          },
+          {
+            "id": "S_FR_RAVI",
+            "word": {
+              "id": "W_FR_RAVI",
+              "language": "fr",
+              "text": "Ravi",
+              "pronunciation": "/ʁa.vi/",
+              "difficulty": 2,
+              "root": "Latin: rapere"
+            },
+            "nuance": "Delighted/Enchanted.",
+            "isPrimary": false
+          }
+        ],
+        "th": []
+      }
+    }
+  ],
+  "alignments": [
+    {
+      "sourceId": "W_JP_NICHI",
+      "targetId": "W_KR_IL",
+      "type": "EXACT"
+    },
+    {
+      "sourceId": "W_JP_TAIYOU",
+      "targetId": "W_KR_TAEYANG",
+      "type": "EXACT"
+    },
+    {
+      "sourceId": "W_EN_SUN",
+      "targetId": "W_FR_SOLEIL",
+      "type": "COGNATE"
+    },
+    {
+      "sourceId": "W_EN_HAPPY",
+      "targetId": "W_FR_HEUREUX",
+      "type": "APPROXIMATE"
+    },
+    {
+      "sourceId": "W_EN_HAPPY",
+      "targetId": "W_JP_URESHII",
+      "type": "APPROXIMATE"
+    }
+  ]
+}

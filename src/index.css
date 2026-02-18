@@ -1,25 +1,65 @@
-/**
- * @file index.css
- * @description Tailwind Global Styles for Lingua Grid
- */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-outfit: "Outfit", sans-serif;
+
+  --color-indigo-50: #f5f7ff;
+  --color-indigo-100: #ebf0fe;
+  --color-indigo-200: #ced9fd;
+  --color-indigo-300: #b1c2fb;
+  --color-indigo-400: #7695f9;
+  --color-indigo-500: #3b67f7;
+  --color-indigo-600: #355de6;
+  --color-indigo-700: #2c4ebf;
+  --color-indigo-800: #233f99;
+  --color-indigo-900: #1d337d;
+}
 
 @layer base {
   body {
-    @apply bg-slate-50 text-slate-900 antialiased;
+    @apply bg-[#020617] text-slate-200 antialiased;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
   }
 }
 
-/* Premium gradient animations */
-@keyframes mesh {
-  0% { transform: scale(1) translate(0, 0); }
-  33% { transform: scale(1.1) translate(20px, -20px); }
-  66% { transform: scale(0.9) translate(-20px, 20px); }
-  100% { transform: scale(1) translate(0, 0); }
+@layer utilities {
+  .glass {
+    background: rgba(15, 23, 42, 0.6);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .glass-light {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+  }
 }
 
-.animate-mesh {
-  animation: mesh 20s ease-in-out infinite;
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
 }
