@@ -7,15 +7,19 @@
   "scripts": {
     "dev": "vite",
     "db:init": "node db/init_db.js",
+    "db:neo4j": "node db/init_neo4j.js",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
     "better-sqlite3": "^12.6.2",
+    "d3-force": "^3.0.0",
     "lucide-react": "^0.564.0",
+    "neo4j-driver": "^6.0.1",
     "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react-dom": "^19.2.0",
+    "react-force-graph-2d": "^1.29.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
